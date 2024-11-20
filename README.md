@@ -1,3 +1,3 @@
 # ScreenSage
 
-Using data set from https://datasets.imdbws.com/
+Recommendation system in scala and spark using data set from https://datasets.imdbws.com/
