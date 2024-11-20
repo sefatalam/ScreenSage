@@ -96,8 +96,8 @@ plt.show()
 ###################################################################################
 
 # read in test and training dataset
-test_data = pd.read_csv("C:\\Users\\dloew\\Desktop\\Uni\\BigData\\Praktikum\\testData.csv", sep="\t")
-training_data = pd.read_csv("C:\\Users\\dloew\\Desktop\\Uni\\BigData\\Praktikum\\trainingData.csv", sep="\t")
+test_data = pd.read_csv("./testData.csv", sep="\t")
+training_data = pd.read_csv("./trainingData.csv", sep="\t")
 
 # plot distribution of average rating in test dataset
 counts, edges, bars = plt.hist(test_data['averageRating'])
