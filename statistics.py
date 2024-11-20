@@ -7,7 +7,7 @@ import seaborn as sns
 import numpy as np
 
 # read in movies file
-movies = pd.read_csv("C:\\Users\\dloew\\Desktop\\Uni\\BigData\\Praktikum\\movies.csv", sep="\t")
+movies = pd.read_csv("./movies.csv", sep="\t")
 
 ######################################################
 ### print some simple statistics about the dataset ###
